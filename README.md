@@ -1,4 +1,4 @@
-# README
+![Banner.png](assets%2FBanner.png)
 
 Lo primero que hice cuando comencé a trabajar en el proyecto fue el diagrama de clases. Durante el desarrollo sufrió un par de cambios y al final quedó de esta manera:
 
