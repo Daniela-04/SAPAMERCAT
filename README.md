@@ -22,13 +22,15 @@ y leyendo actualizaciones de precios de productos textiles en [UpdateTextilPrice
 
 `⚠️ Hay que tener instalado java para poder ejecutar`
 
-1. Descargar la carpeta [SAPAMERCAT_jar](out%2Fartifacts%2FSAPAMERCAT_jar)
+1. Descargar la carpeta [SAPAMERCAT_jar](out%2Fartifacts%2FSAPAMERCAT_jar) [^1]
 2. Entrar en la carpeta y abrir un terminal ahí
 3. Ejecutar
    ```java
     java -jar SAPAMERCAT.jar
     ```
 4. Interactuar con el programa
+
+[^1]: [link de DownGit](https://downgit.github.io/#/home?url=https://github.com/Daniela-04/SAPAMERCAT/tree/ab78730d02cbe182fc5f49555a396131a64f7e8c/out/artifacts/SAPAMERCAT_jar) para descargar la carpeta directamente 
 
 #  Desarrollo
 
