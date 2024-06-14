@@ -1,12 +1,44 @@
 ![Banner.png](assets%2FBanner.png)
 
-Lo primero que hice cuando comencé a trabajar en el proyecto fue el diagrama de clases. Durante el desarrollo sufrió un par de cambios y al final quedó de esta manera:
+Este es un proyecto que emula un supermercado sencillo en el que se puede agregar productos a la cesta, 
+mostrar el carrito y pasar por caja. 
 
-![](assets/clases.png "diagrama de clases")
+Ademas de poner en practica el uso del sistema de ficheros, registrando excepciones en el archivo [Exceptions.dat](logs%2FExceptions.dat)
+y leyendo actualizaciones de precios de productos textiles en [UpdateTextilPrices.dat](updates%2FUpdateTextilPrices.dat)
 
-Mi intención era tener todo perfectamente separado para que a la hora de buscar métodos o funciones siempre se supiera en qué clase buscar. De manera que si yo necesitaba encontrar algo que tuviese que ver con el carrito, por ejemplo, simplemente buscase en dicha clase
+---
+<!-- TOC -->
+  * [Como ejecutar el programa](#como-ejecutar-el-programa)
+* [Desarrollo](#desarrollo)
+    * [Clase Main 🚩](#clase-main-)
+    * [Clase Menu 🟰](#clase-menu-)
+    * [Clase Compra  🛍️](#clase-compra-)
+    * [Clase Carrito 🛒](#clase-carrito-)
+<!-- TOC -->
+
+---
+
+## Como ejecutar el programa
+
+`⚠️ Hay que tener instalado java para poder ejecutar`
+
+1. Descargar la carpeta [SAPAMERCAT_jar](out%2Fartifacts%2FSAPAMERCAT_jar)
+2. Entrar en la carpeta y abrir un terminal ahí
+3. Ejecutar
+   ```java
+    java -jar SAPAMERCAT.jar
+    ```
+4. Interactuar con el programa
 
 #  Desarrollo
+
+---
+
+Lo primero que hice cuando comencé a trabajar en el proyecto fue el diagrama de clases. Durante el desarrollo sufrió un par de cambios y al final quedó de esta manera:
+
+![diagrama de clases](assets/clases.png "diagrama de clases")
+
+Mi intención era tener todo perfectamente separado para que a la hora de buscar métodos o funciones siempre se supiera en qué clase buscar. De manera que si yo necesitaba encontrar algo que tuviese que ver con el carrito, por ejemplo, simplemente buscase en dicha clase
 
 ### Clase Main 🚩
 ```JAVA
@@ -117,7 +149,7 @@ Tuve en cuenta que si había cualquier problema con el archivo o la escritura de
 Decidí hacer una clase compra para gestionar por separado todo lo que tuviese que ver con los objetos producto y sus atributos. Por este motivo en esta clase tengo la lista con todo lo que el usuario introduce y métodos que me buscan propiedades como el nombre o el precio.
 
 Preferí utilizar un arraylist en lugar de un linkedlist porque este me permite acceder a un elemento por su índice  y es  mas rápido a la hora de obtener objetos concretos.
-![](assets/Arraylist.png)
+![razon](assets/Arraylist.png)
 
 ### Clase Carrito 🛒
 
